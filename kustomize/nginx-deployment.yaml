@@ -10,10 +10,10 @@ spec:
     matchLabels:
       app: nginx
   template:
-      metadata:
-        labels:
-          app: nginx
-        spec:
-          containers:
-          - image: nginx
-            name: nginx
+    metadata:
+      labels:
+        app: nginx
+    spec:
+        containers:
+        - image: nginx
+          name: nginx
